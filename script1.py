@@ -3,14 +3,14 @@
 # Johnny, the total of your purchase is $1,688.70
 
 def calcTotal(amt,tax,name):
-    mytotal = amt * (1+tax)
-    print(f"{myname}, the total of your purchase is ${total:,.2f}")
+    total = amt * (1+tax)
+    print(f"{name}, the total of your purchase is ${total:,.2f}")
 
-myname = 'Johnny'
-price = 1,560
-thetax = 8.25%
+name = 'Johnny'
+amt = 1560
+tax = .0825
 
-calcTotal(thetax,price,name)
+calcTotal(amt,tax,name)
 
 
 
